@@ -1,0 +1,36 @@
+{
+  "slug": "osts",
+  "title": "OSTs sans oeuvres",
+  "subtitle": "Musiques de films, séries ou jeux vidéos.",
+  "color": "#f274d9",
+  "tags": [
+    "son"
+  ],
+  "cover": "/assets/projects/osts/cover.png",
+  "hero": "/assets/projects/osts/cover.png",
+  "bg": "/assets/projects/osts/cover.png",
+  "description": "Des OST, ou \"Original Soundtracks\", sont des musiques créées pour accompagner des films, des séries ou des jeux vidéo. Elles jouent un rôle crucial dans l'immersion dans une oeuvre. J'aime beaucoup en écouter, et certaines sont marquantes en plus de simplement m'inspirer. Je me suis donc essayé à cet exercice sur ma chaine youtube. J'ai d'ailleurs trié les sons dans l'ordre de celui que j'apprécie le plus jusqu'au moins bien à mes yeux.",
+  "gallery": [],
+  "iframes": [
+    {
+      "url": "https://www.youtube.com/embed/RY-bfq6QoZA?rel=0",
+      "title": "Breaksam - Crystal Cave"
+    },
+    {
+      "url": "https://www.youtube.com/embed/lSF-vMjZXR8?rel=0",
+      "title": "Breaksam - Hope in a dead silence"
+    },
+    {
+      "url": "https://www.youtube.com/embed/1O3nYQH8szE?rel=0",
+      "title": "Breaksam - Shop front of a sunshine beach"
+    },
+    {
+      "url": "https://www.youtube.com/embed/1H22fpW3_Jc?rel=0",
+      "title": "Breaksam - I made this after a hike in snowy mountains"
+    },
+    {
+      "url": "https://www.youtube.com/embed/eCoyYPAFqmE?rel=0",
+      "title": "Breaksam - Bubble Tea"
+    }
+  ]
+}

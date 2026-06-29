@@ -1,0 +1,29 @@
+{
+    "slug": "vergil",
+    "title": "Vergil",
+    "subtitle": "Mon photoshop favori",
+    "tags": [
+        "infographie"
+    ],
+    "color": "#4297ff",
+    "cover": "/assets/projects/vergil/cover.jpg",
+    "hero": "/assets/projects/vergil/cover.jpg",
+    "bg": "/assets/projects/vergil/img.jpg",
+    "description": "Suite à un cours de Photoshop ou j'ai appris comment faire des effets de brillance, j'ai eu de l'inspiration et je me suis lancé dans ce mini projet que j'apprécie au point de l'afficher seul sur mon portfolio. J'ai joué à cette période à Devil May Cry 5, et j'ai extrêmement apprécié le gameplay du jeu et ses personnages. Parmi eux, Vergil, qui est l'antagoniste, le frère du héros et le personnage le plus marquant de l'œuvre. Vous avez ci-dessous la photo de base et le résultat final.",
+    "gallery": [
+        {
+            "id": "1",
+            "url": "/assets/projects/vergil/cover.jpg",
+            "img": "/assets/projects/vergil/cover.jpg",
+            "height": 4,
+            "width": 6
+        },
+        {
+            "id": "2",
+            "url": "/assets/projects/vergil/img.jpg",
+            "img": "/assets/projects/vergil/img.jpg",
+            "height": 4,
+            "width": 6
+        }
+    ]
+}

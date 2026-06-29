@@ -1,0 +1,124 @@
+.homepage {
+    .hero-home {
+        min-height: 100vh;
+
+        &__content {
+            padding: 100px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 32px;
+        }
+
+        &__btns {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            width: 100%;
+
+            .btn {
+                margin: 0;
+            }
+        }
+    }
+
+    h1,
+    h1 * {
+        font-size: 5rem;
+        line-height: 110%;
+    }
+
+    .os-window {
+        width: 100%;
+        // max-width: 560px;
+        border: 1px solid #ffffff22;
+        border-radius: 8px;
+        background: #111111cc;
+        backdrop-filter: blur(12px);
+        overflow: hidden;
+        box-shadow: 0 8px 40px #0008;
+
+        &__titlebar {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 14px;
+            background: #ffffff0d;
+            border-bottom: 1px solid #ffffff18;
+        }
+
+        &__dots {
+            display: flex;
+            gap: 6px;
+            flex-shrink: 0;
+        }
+
+        .dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+
+            &--close    { background: #ff5f57; }
+            &--minimize { background: #febc2e; }
+            &--maximize { background: #28c840; }
+        }
+
+        &__title {
+            font-size: 1rem;
+            color: #ffffff66;
+            letter-spacing: 0.04em;
+            font-family: "Poppins", monospace;
+        }
+
+        &__body {
+            padding: 20px 22px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+
+            p {
+                font-size: 1rem;
+                line-height: 1.65;
+                color: #ffffffbb;
+                font-weight: 300;
+            }
+        }
+    }
+
+    .competences {
+        min-height: 130vh;
+        padding: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .competences__content {
+        max-width: 400px;
+        margin-left: auto;
+
+        padding: 20px 30px;
+        background: #2e2e2e55;
+        border: 2px solid #fff2;
+        box-shadow: 0 0 20px 8px #2e2e2e55;
+    }
+
+    .blog-pub_img {
+        padding: 0 80px;
+        background: #000;
+    }
+
+    .jefaisquoi {
+        min-height: 100vh;
+    }
+
+    .cta-projets {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "experimentations-infographie",
+  "title": "Essais visuels",
+  "subtitle": "Expérimentations de covers d'albums et d'illustrations",
+  "color": "#acff05",
+  "tags": [
+    "infographie"
+  ],
+  "cover": "/assets/projects/experimentations-infographie/cover_bomberman.png",
+  "hero": "/assets/projects/experimentations-infographie/chrome1.png",
+  "bg": "/assets/projects/experimentations-infographie/cover_porte.png",
+  "description": "Après avoir eu des cours de Photoshop et Illustrator, je me suis trouvé une fascination pour la création de visuels. J'ai donc commencé à utiliser mon temps libre pour expérienter différents visuels sans but précis. Certains me servent à recréer des styles graphiques (Comme \"Chrome\", ou \"Bomberman\"). Je me suis également essayé au dessin, ou à de l'ajout d'éléments 3D faits via Blender (comme avec \"Retrowav\").",
+  "gallery": [
+    {
+      "id": "1",
+      "url": "/assets/projects/experimentations-infographie/cover_porte.png",
+      "img": "/assets/projects/experimentations-infographie/cover_porte.png",
+      "height": 2,
+      "width": 4
+    },
+    {
+      "id": "2",
+      "url": "/assets/projects/experimentations-infographie/chrome1.png",
+      "img": "/assets/projects/experimentations-infographie/chrome1.png",
+      "height": 2,
+      "width": 8
+    },
+    {
+      "id": "3",
+      "url": "/assets/projects/experimentations-infographie/cover_driveby.png",
+      "img": "/assets/projects/experimentations-infographie/cover_driveby.png",
+      "height": 2,
+      "width": 4
+    },
+    {
+      "id": "4",
+      "url": "/assets/projects/experimentations-infographie/chrome2.png",
+      "img": "/assets/projects/experimentations-infographie/chrome2.png",
+      "height": 2,
+      "width": 8
+    },
+    {
+      "id": "5",
+      "url": "/assets/projects/experimentations-infographie/cover_bomberman.png",
+      "img": "/assets/projects/experimentations-infographie/cover_bomberman.png",
+      "height": 2,
+      "width": 4
+    },
+    {
+      "id": "6",
+      "url": "/assets/projects/experimentations-infographie/cover_cancer.png",
+      "img": "/assets/projects/experimentations-infographie/cover_cancer.png",
+      "height": 2,
+      "width": 4
+    },
+    {
+      "id": "7",
+      "url": "/assets/projects/experimentations-infographie/cover_fracture.png",
+      "img": "/assets/projects/experimentations-infographie/cover_fracture.png",
+      "height": 2,
+      "width": 4
+    },
+    {
+      "id": "8",
+      "url": "/assets/projects/experimentations-infographie/cover_chubbyburger.png",
+      "img": "/assets/projects/experimentations-infographie/cover_chubbyburger.png",
+      "height": 2,
+      "width": 4
+    },
+    {
+      "id": "9",
+      "url": "/assets/projects/experimentations-infographie/cover_retrowav.png",
+      "img": "/assets/projects/experimentations-infographie/cover_retrowav.png",
+      "height": 2,
+      "width": 4
+    },
+    {
+      "id": "10",
+      "url": "/assets/projects/experimentations-infographie/noctural_animal.png",
+      "img": "/assets/projects/experimentations-infographie/noctural_animal.png",
+      "height": 2,
+      "width": 4
+    },
+    {
+      "id": "11",
+      "url": "/assets/projects/experimentations-infographie/resto_fictif.png",
+      "img": "/assets/projects/experimentations-infographie/resto_fictif.png",
+      "height": 2,
+      "width": 6
+    },
+    {
+      "id": "12",
+      "url": "/assets/projects/experimentations-infographie/titre_lugubre.png",
+      "img": "/assets/projects/experimentations-infographie/titre_lugubre.png",
+      "height": 2,
+      "width": 6
+    },
+    {
+      "id": "13",
+      "url": "/assets/projects/experimentations-infographie/trippy_sam.png",
+      "img": "/assets/projects/experimentations-infographie/trippy_sam.png",
+      "height": 2,
+      "width": 4
+    }
+  ]
+}

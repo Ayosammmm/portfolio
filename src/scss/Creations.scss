@@ -1,0 +1,193 @@
+@use './mixins' as *;
+
+@include media-breakpoint-down(550px) {
+    .folder__back {
+        width: 120px;
+        height: 80px;
+    }
+}
+
+.creations-page {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    overflow: hidden;
+    max-height: 100vh;
+
+    @include media-breakpoint-up(950px) {
+        min-height: 99vh;
+    }
+
+    @include media-breakpoint-down(1400px) {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @include media-breakpoint-down(950px) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 3rem;
+        position: relative;
+        padding-left: 40px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 14px;
+            bottom: 19px;
+            left: 0;
+            width: 25px;
+            background: var(--primary);
+        }
+    }
+
+    .tag-selector h2 {
+        font-size: 2rem;
+        font-weight: 100;
+        letter-spacing: 0.02rem;
+        margin-bottom: 20px;
+    }
+
+    .left-side {
+        margin: 30px;
+        box-shadow: 0 0 20px hsla(0, 0%, 0%, 0.685);
+
+        @include media-breakpoint-up(950px) {
+            min-height: 90vh;
+            overflow: auto;
+            max-height: 100vh;
+        }
+
+        @include media-breakpoint-down(950px) {
+            margin-top: 80px;
+            height: fit-content;
+
+            .main-infos {
+                display: none;
+            }
+        }
+
+        .main-infos,
+        .left-bottom {
+            padding: 20px;
+        }
+
+        .creation-preview-head {
+            padding: 20px 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        .creation-preview-content {
+            margin-top: 10px;
+            padding: 10px 20px;
+            min-height: 150px;
+
+        }
+
+        .creation-titre {
+            font-size: 3rem;
+        }
+
+        .creation-soustitre {
+            font-size: 1.6rem;
+            font-weight: bold;
+        }
+
+        .creation-img {
+            aspect-ratio: 1/1;
+            width: 100%;
+            max-width: 200px;
+            max-height: 200px;
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+
+            }
+        }
+    }
+
+    .right-side {
+        max-height: 100vh;
+        overflow-y: auto;
+    }
+
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 60px 20px;
+        padding: 150px 50px 100px;
+
+        @include media-breakpoint-down(1140px) {
+            grid-template-columns: repeat(2, 1fr);
+
+            @include media-breakpoint-down(950px) {
+                grid-template-columns: repeat(3, 1fr);
+                padding: 30px;
+
+                @include media-breakpoint-down(640px) {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+
+            }
+        }
+
+
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .folder {
+        .paper {
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+        }
+    }
+
+    .tag {
+        display: inline-block;
+        letter-spacing: 0.05rem;
+        font-weight: 200;
+        font-size: 0.9rem;
+        padding: 6px 7px;
+        margin: 0 15px 10px 0;
+        background: none;
+        position: relative;
+        border: 2px solid currentColor;
+        transition: box-shadow 0.2s ease, color 0.1s ease;
+        cursor: pointer;
+
+        &::after,
+        &::before {
+            content: "";
+            display: block;
+            position: absolute;
+            background: currentColor;
+            left: 2px;
+            right: 2px;
+            height: 2px;
+        }
+
+        &::before {
+            top: 2px;
+        }
+
+        &::after {
+            bottom: 2px;
+        }
+
+        &:hover {
+            box-shadow: 0 0 15px currentColor;
+        }
+    }
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "blendershading",
+  "title": "Shading découverte",
+  "subtitle": "Initiation en autodicate au shading sous Blender",
+  "color": "#280a7a",
+  "tags": [
+    "3d"
+  ],
+  "cover": "/assets/projects/blendershading/la3d.gif",
+  "hero": "/assets/projects/blendershading/ciel_jour.png",
+  "bg": "/assets/projects/blendershading/wowzers.png",
+  "description": "Ce qui m'a d'abord intéressé dans Blender, c'est le système de shaders avec le système de nodes. Je voulais pouvoir faire des matériaux avec un excellent rendu car je ne pouvais pas faire ca sur Photoshop. Pour résumer j'ai appris les bases avec des tutos, puis des techniques à partir d'autres tutos, et au final j'ai appris à faire des matériaux avec un style cartoon / animé dont je suis fier. Je ne savais pas pourquoi (et je m'en fichais), mais Blender avait cette image de logiciel \"pas professionnel\". Finalement il prend de plus en plus de places même pour faire des films qui terminent au cinéma et franchement c'est mérité.",
+  "gallery": [
+    {
+      "id": "1",
+      "url": "/assets/projects/blendershading/wowzers.png",
+      "img": "/assets/projects/blendershading/wowzers.png",
+      "height": 2,
+      "width": 3
+    },
+    {
+      "id": "2",
+      "url": "/assets/projects/blendershading/ciel_nuit.png",
+      "img": "/assets/projects/blendershading/ciel_nuit.png",
+      "height": 2,
+      "width": 6
+    },
+    {
+      "id": "3",
+      "url": "/assets/projects/blendershading/energyball.png",
+      "img": "/assets/projects/blendershading/energyball.png",
+      "height": 2,
+      "width": 3
+    },
+    {
+      "id": "4",
+      "url": "/assets/projects/blendershading/ciel_nuit2.png",
+      "img": "/assets/projects/blendershading/ciel_nuit2.png",
+      "height": 2,
+      "width": 6
+    },
+    {
+      "id": "5",
+      "url": "/assets/projects/blendershading/ciel_jour.png",
+      "img": "/assets/projects/blendershading/ciel_jour.png",
+      "height": 2,
+      "width": 6
+    },
+    {
+      "id": "6",
+      "url": "/assets/projects/blendershading/la3d.gif",
+      "img": "/assets/projects/blendershading/la3d.gif",
+      "height": 2,
+      "width": 4
+    },
+    {
+      "id": "7",
+      "url": "/assets/projects/blendershading/shading.png",
+      "img": "/assets/projects/blendershading/shading.png",
+      "height": 2,
+      "width": 8
+    }
+  ],
+  "videos": [
+        {
+      "id": "1",
+      "url": "/assets/projects/blendershading/wowzers.mp4",
+      "img": "/assets/projects/blendershading/wowzers.mp4",
+      "auto": true,
+      "height": 2,
+      "width": 6
+    },
+    {
+      "id": "2",
+      "url": "/assets/projects/blendershading/energyball.mp4",
+      "img": "/assets/projects/blendershading/energyball.mp4",
+      "auto": true,
+      "height": 2,
+      "width": 6
+    }
+  ]
+}

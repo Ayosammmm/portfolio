@@ -1,0 +1,37 @@
+{
+  "slug": "breaksam",
+  "title": "Breaksam",
+  "subtitle": "Et l'EP \"Strange Malware\"",
+  "color": "#ff2200",
+  "tags": [
+    "vidéo",
+    "son"
+  ],
+  "cover": "/assets/projects/breaksam/cover.png",
+  "hero": "/assets/projects/breaksam/breaksam_wallpaper.png",
+  "bg": "/assets/projects/breaksam/breaksam_wallpaper.png",
+  "description": "Mon projet de musique le plus abouti. Breaksam est mon nom d'artiste avec lequel je fais de la musique électronique. J'ai crée un EP de 5 titres nommé \"Strange Malware\" mélangeant des inspirations de genres plus ou moins niches comme la Drum and Bass, la jungle, ou la Breakcore, avec une vibe très nocturne et chaotique. Le projet est disponible sur les plateformes de streaming comme Spotify ou Deezer, mais également sur Youtube avec un visualiseur que j'ai concu moi-même.",
+  "gallery": [],
+  "iframes": [
+    {
+      "url": "https://www.youtube.com/embed/Qx6cU9wR4uQ?rel=0",
+      "title": "Breaksam - My brain sometimes"
+    },
+    {
+      "url": "https://www.youtube.com/embed/aip8xsiAc78?rel=0",
+      "title": "Breaksam - My brain sometimes"
+    },
+    {
+      "url": "https://www.youtube.com/embed/Co_BtmXqZW8?rel=0",
+      "title": "Breaksam - My brain sometimes"
+    },
+    {
+      "url": "https://www.youtube.com/embed/Gy8j_6UPQAI?rel=0",
+      "title": "Breaksam - My brain sometimes"
+    },
+    {
+      "url": "https://www.youtube.com/embed/-WWehMlGw1c?rel=0",
+      "title": "Breaksam - My brain sometimes"
+    }
+  ]
+}

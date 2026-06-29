@@ -1,0 +1,118 @@
+{
+  "slug": "last-card",
+  "title": "Last Card",
+  "subtitle": "Un Uno nouvelle génération !",
+  "color": "#ffffff",
+  "tags": [
+    "dev",
+    "video",
+    "infographie"
+  ],
+  "cover": "/assets/projects/last-card/dos_carte.jpg",
+  "hero": "/assets/projects/last-card/last-card-ingame.png",
+  "bg": "/assets/projects/last-card/menu_1.png",
+  "description": "Mon plus gros projet jusqu'à présent. Lase Card est mon projet de fin d'études pour mon Master PSM à Montbéliard. C'est un jeu jouable en ligne inspiré du Uno, mais où il y a plus de cartes, plus de règles possibles et d'ailleurs éditables avant chaques parties. J'ai eu l'idée de ce projet après plusieurs parties de Uno ou ca finit en débat sur les règles, ou alors après des parties en ligne où les règles sont limitées, et donc la rejouabilité est courte.",
+  "gallery": [
+    {
+      "id": "1",
+      "url": "/assets/projects/last-card/carte1.jpg",
+      "img": "/assets/projects/last-card/carte1.jpg",
+      "height": 3,
+      "width": 4
+    },
+    {
+      "id": "2",
+      "url": "/assets/projects/last-card/carte2.jpg",
+      "img": "/assets/projects/last-card/carte2.jpg",
+      "height": 3,
+      "width": 4
+    },
+    {
+      "id": "3",
+      "url": "/assets/projects/last-card/carte3.jpg",
+      "img": "/assets/projects/last-card/carte3.jpg",
+      "height": 3,
+      "width": 4
+    },
+    {
+      "id": "4",
+      "url": "/assets/projects/last-card/carte4.jpg",
+      "img": "/assets/projects/last-card/carte4.jpg",
+      "height": 3,
+      "width": 4
+    },
+    {
+      "id": "5",
+      "url": "/assets/projects/last-card/carte5.jpg",
+      "img": "/assets/projects/last-card/carte5.jpg",
+      "height": 3,
+      "width": 4
+    },
+    {
+      "id": "6",
+      "url": "/assets/projects/last-card/carte6.jpg",
+      "img": "/assets/projects/last-card/carte6.jpg",
+      "height": 3,
+      "width": 4
+    },
+    {
+      "id": "7",
+      "url": "/assets/projects/last-card/dos_carte.jpg",
+      "img": "/assets/projects/last-card/dos_carte.jpg",
+      "height": 4,
+      "width": 6
+    },
+    {
+      "id": "8",
+      "url": "/assets/projects/last-card/last-card-ingame.png",
+      "img": "/assets/projects/last-card/last-card-ingame.png",
+      "height": 2,
+      "width": 6
+    },
+    {
+      "id": "9",
+      "url": "/assets/projects/last-card/menu_1.png",
+      "img": "/assets/projects/last-card/menu_1.png",
+      "height": 2,
+      "width": 6
+    },
+    {
+      "id": "10",
+      "url": "/assets/projects/last-card/menu_2-1.png",
+      "img": "/assets/projects/last-card/menu_2-1.png",
+      "height": 2,
+      "width": 6
+    },
+    {
+      "id": "11",
+      "url": "/assets/projects/last-card/menu_2-3.png",
+      "img": "/assets/projects/last-card/menu_2-3.png",
+      "height": 2,
+      "width": 6
+    },
+    {
+      "id": "12",
+      "url": "/assets/projects/last-card/carte-layers.png",
+      "img": "/assets/projects/last-card/carte-layers.png",
+      "height": 2,
+      "width": 9
+    },
+    {
+      "id": "13",
+      "url": "/assets/projects/last-card/last-card-communique-presse.png",
+      "img": "/assets/projects/last-card/last-card-communique-presse.png",
+      "height": 2,
+      "width": 3
+    }
+  ],
+  "iframes": [
+    {
+      "url": "https://www.youtube.com/embed/ksLzJtiQzQc?rel=0",
+      "title": "Trailer Last Card CENSURÉ"
+    },
+    {
+      "url": "https://www.youtube.com/embed/6MKuT5-g-FU?rel=0",
+      "title": "Trailer Last Card NON CENSURÉ"
+    }
+  ]
+}

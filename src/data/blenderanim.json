@@ -1,0 +1,119 @@
+{
+  "slug": "blenderanim",
+  "title": "Animations Blender",
+  "subtitle": "Initiation en autodicate aux animations sous Blender",
+  "color": "#f5f242",
+  "tags": [
+    "3d",
+    "vidéo"
+  ],
+  "cover": "/assets/projects/blenderanim/15-omg.png",
+  "hero": "/assets/projects/blenderanim/11-pressure-lines.png",
+  "bg": "/assets/projects/blenderanim/14-posing-compositor.png",
+  "description": "J'ai un rêve de projet à réaliser : Un court-metrage d'animation. Vu que je ne sais pas dessiner, je voulais m'orienter vers de la 3D avec des éléments et des codes d'univers 2D (c'est surtout bien fait sur des jeux comme Dragon Ball FighterZ ou Guilty Gear). C'est une des raisons qui m'a poussé à apprendre Blender. Mais ce logiciel est si vaste que j'ai eu un volet entier pour juste apprendre à animer et à faire des poses. J'ai importé mon skin Roblox et celui d'un ami afin de m'épargner pour le moment la modélisation de personnage et la création d'une armature. J'ai ensuite appris à manipuler un squelette, à l'animer, à faire des rendus pas mauvais, et à ajouter des effets (grâce à mon savoir faire en shading). J'ai également appris à utiliser Compositor, un outil de Blender parfait pour le post-processing et les effets.",
+  "gallery": [
+    {
+      "id": "1",
+      "url": "/assets/projects/blenderanim/11-pressure-lines.png",
+      "img": "/assets/projects/blenderanim/11-pressure-lines.png",
+      "height": 2,
+      "width": 6
+    },
+    {
+      "id": "2",
+      "url": "/assets/projects/blenderanim/2-aura_posing.png",
+      "img": "/assets/projects/blenderanim/2-aura_posing.png",
+      "height": 3,
+      "width": 6
+    },
+    {
+      "id": "3",
+      "url": "/assets/projects/blenderanim/1-import_et_ciel.png",
+      "img": "/assets/projects/blenderanim/1-import_et_ciel.png",
+      "height": 2,
+      "width": 6
+    },
+    {
+      "id": "4",
+      "url": "/assets/projects/blenderanim/1-import_et_ciel2.png",
+      "img": "/assets/projects/blenderanim/1-import_et_ciel2.png",
+      "height": 2,
+      "width": 6
+    },
+    {
+      "id": "5",
+      "url": "/assets/projects/blenderanim/2-aura_posing2.png",
+      "img": "/assets/projects/blenderanim/2-aura_posing2.png",
+      "height": 3,
+      "width": 6
+    },
+    {
+      "id": "7",
+      "url": "/assets/projects/blenderanim/4-new-world.png",
+      "img": "/assets/projects/blenderanim/4-new-world.png",
+      "height": 2,
+      "width": 6
+    },
+    {
+      "id": "8",
+      "url": "/assets/projects/blenderanim/5-anim-en-cours.png",
+      "img": "/assets/projects/blenderanim/5-anim-en-cours.png",
+      "height": 2,
+      "width": 6
+    },
+    {
+      "id": "12",
+      "url": "/assets/projects/blenderanim/14-posing-compositor.png",
+      "img": "/assets/projects/blenderanim/14-posing-compositor.png",
+      "height": 2,
+      "width": 6
+    },
+    {
+      "id": "15",
+      "url": "/assets/projects/blenderanim/15-omg.png",
+      "img": "/assets/projects/blenderanim/15-omg.png",
+      "height": 2,
+      "width": 6
+    },
+    {
+      "id": "16",
+      "url": "/assets/projects/blenderanim/15-omg-compositor.png",
+      "img": "/assets/projects/blenderanim/15-omg-compositor.png",
+      "height": 2,
+      "width": 6
+    }
+  ],
+  "videos": [
+    {
+      "id": "1",
+      "url": "/assets/projects/blenderanim/6-anim-sans-fx.mp4",
+      "img": "/assets/projects/blenderanim/6-anim-sans-fx.mp4",
+      "auto": true,
+      "height": 2,
+      "width": 6
+    },
+    {
+      "id": "2",
+      "url": "/assets/projects/blenderanim/8-anim-avec-fx.mp4",
+      "img": "/assets/projects/blenderanim/8-anim-avec-fx.mp4",
+      "auto": true,
+      "height": 2,
+      "width": 6
+    },
+    {
+      "id": "3",
+      "url": "/assets/projects/blenderanim/3-anim-w-aura.mp4",
+      "img": "/assets/projects/blenderanim/3-anim-w-aura.mp4",
+      "height": 2,
+      "width": 4
+    },
+    {
+      "id": "4",
+      "url": "/assets/projects/blenderanim/12-impact-frames-bad-anim.mp4",
+      "img": "/assets/projects/blenderanim/12-impact-frames-bad-anim.mp4",
+      "auto": true,
+      "height": 2,
+      "width": 6
+    }
+  ]
+}
