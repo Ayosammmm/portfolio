@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { Link } from "react-router-dom";
 import Folder from '../components/Folder';
+import Img from '../components/Img';
 import projects from "../data/projects";
 import Lenis from 'lenis';
 
@@ -44,7 +45,7 @@ export default function Creations() {
 
     return (
         <section className="creations-page">
-            <div className='left-side'>
+            <div className='left-side section-in'>
                 <div className='main-infos'>
                     <h1 className='shiny-text' shinylayer="Mes Créations">Mes Créations</h1>
 
@@ -53,7 +54,7 @@ export default function Creations() {
                             <>
                                 <div className='creation-preview-head'>
                                     <div className="creation-img">
-                                        <img src={hoveredProject.cover} alt={hoveredProject.title} />
+                                        <Img src={hoveredProject.cover} alt={hoveredProject.title} sizes="200px" />
                                     </div>
                                     <div className="creation-tag">
                                         {hoveredProject.tags.map((tag, idx) => (
@@ -97,13 +98,13 @@ export default function Creations() {
             </div>
 
             <div className='right-side' ref={rightSideRef}>
-                <div className="projects-grid">
+                <div className="projects-grid section-in-stagger" style={{ "--section-in-step": "0.10s", "--section-in-delay": "0s" }}>
                     {filteredProjects.map((project) => {
                         const items = project.gallery.slice(0, 3).map((image, index) => (
-                            <img key={index} src={image.url} alt={`Image ${index + 1}`} />
+                            <Img key={index} src={image.url} alt={`Image ${index + 1}`} sizes="(max-width: 768px) 50vw, 20vw" loading="lazy" />
                         ));
                         const cover = (
-                            <img src={project.cover} alt={`Dossier ${project.title}`} />
+                            <Img src={project.cover} alt={`Dossier ${project.title}`} sizes="(max-width: 768px) 50vw, 20vw" loading="lazy" />
                         );
 
                         return (

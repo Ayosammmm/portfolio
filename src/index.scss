@@ -1,7 +1,8 @@
 @use './theme.scss';
 @use './scss/mixins.scss' as *;
 
-@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+// Polices (Poppins, Fugaz One) : auto-hébergées dans public/fonts,
+// déclarées et préchargées dans index.html.
 $betterease: cubic-bezier(.5, 0, .1, .99);
 
 * {
@@ -14,7 +15,7 @@ $betterease: cubic-bezier(.5, 0, .1, .99);
 :root {
   font-size: 16px;
   @include media-breakpoint-down(1140px) {
-    font-size: 13px;
+    font-size: 15px;
   }
 }
 
@@ -192,24 +193,8 @@ footer {
 }
 
 //Page Loader
-.loader {
-  opacity: 1;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1001;
-
-  &.loaded {
-    opacity: 0;
-    transition: opacity 0.5s $betterease;
-    pointer-events: none;
-  }
-}
+// Styles du loader : en ligne dans index.html (#loader), pour qu'il s'affiche
+// avant le chargement de ce fichier. La couleur de fond est reprise dans theme.scss.
 
 //View Transition
 /* Views Animation */
@@ -268,6 +253,54 @@ main {
 
   to {
     opacity: 0.5;
+  }
+}
+
+// ---------- Apparition de section (globale) ----------
+// Usage :
+//   .section-in          → anime l'élément lui-même
+//   .section-in-stagger  → anime chaque enfant direct, en cascade
+// Réglages via variables CSS sur l'élément :
+//   --section-in-delay (défaut 0.5s, aligné sur la view transition)
+//   --section-in-step  (défaut 0.07s, écart entre deux enfants)
+//
+// Seul l'état de départ est défini : l'arrivée reprend les styles de l'élément.
+// Avec "backwards", l'animation ne fige rien une fois terminée, donc les
+// transform / scale / translate des survols restent fonctionnels.
+// translate/scale (et non transform) pour ne pas écraser un transform inline.
+@keyframes section-in {
+  from {
+    opacity: 0;
+    translate: 0 16px;
+    scale: 0.98;
+  }
+}
+
+.section-in,
+.section-in-stagger > * {
+  animation: section-in 0.7s $betterease backwards;
+  animation-delay: var(--section-in-delay, 0.5s);
+}
+
+// En pause tant que le loader est affiché (classe posée par App.jsx) :
+// le délai ne commence à courir qu'une fois le site réellement chargé.
+html:not(.is-loaded) {
+  .section-in,
+  .section-in-stagger > * {
+    animation-play-state: paused;
+  }
+}
+
+@for $i from 1 through 12 {
+  .section-in-stagger > :nth-child(#{$i}) {
+    animation-delay: calc(var(--section-in-delay, 0.5s) + #{$i} * var(--section-in-step, 0.07s));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .section-in,
+  .section-in-stagger > * {
+    animation: none;
   }
 }
 

@@ -5,7 +5,7 @@ import '../scss/MeContacter.scss';
 export default function Moi() {
     return (<section className="contact-page">
         <div className="container">
-            <h1 className='title-bandeau'>
+            <h1 className='title-bandeau section-in'>
                 <TextType
                     text={[
                         "Je suis (parfois) actif sur ces réseaux :",
@@ -23,7 +23,7 @@ export default function Moi() {
                     cursorCharacter="|"
                 />
             </h1>
-            <div className="socials-bubbles-container">
+            <div className="socials-bubbles-container section-in-stagger" style={{ "--section-in-delay": "0.6s", "--section-in-step": "0.1s" }}>
                 <SocialsBubble
                     href="https://www.youtube.com/@breaksam0"
                     rotate="-30"

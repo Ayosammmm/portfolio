@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Tailles d’images générées par `npm run images`
+_sizes/

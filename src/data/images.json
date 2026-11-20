@@ -1,0 +1,485 @@
+{
+  "/assets/blog_pub.png": {
+    "width": 1440,
+    "height": 1080,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/blenderanim/1-import_et_ciel.png": {
+    "width": 1920,
+    "height": 1080,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/blenderanim/1-import_et_ciel2.png": {
+    "width": 1920,
+    "height": 1080,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/blenderanim/11-pressure-lines.png": {
+    "width": 1920,
+    "height": 1080,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/blenderanim/14-posing-compositor.png": {
+    "width": 1920,
+    "height": 1080,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/blenderanim/14-posing-compositor2.png": {
+    "width": 1920,
+    "height": 1080,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/blenderanim/14-posing-compositor3.png": {
+    "width": 1920,
+    "height": 1080,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/blenderanim/15-omg-compositor.png": {
+    "width": 1920,
+    "height": 1080,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/blenderanim/15-omg.png": {
+    "width": 1920,
+    "height": 1080,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/blenderanim/2-aura_posing.png": {
+    "width": 1080,
+    "height": 1080,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  "/assets/projects/blenderanim/2-aura_posing2.png": {
+    "width": 1920,
+    "height": 1080,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/blenderanim/4-new-world.png": {
+    "width": 1920,
+    "height": 1080,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/blenderanim/5-anim-en-cours.png": {
+    "width": 1920,
+    "height": 1080,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/blendershading/ciel_jour.png": {
+    "width": 1920,
+    "height": 1080,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/blendershading/ciel_nuit.png": {
+    "width": 1920,
+    "height": 1080,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/blendershading/ciel_nuit2.png": {
+    "width": 1920,
+    "height": 1080,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/blendershading/energyball.png": {
+    "width": 1420,
+    "height": 1080,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/blendershading/shading.png": {
+    "width": 1920,
+    "height": 1080,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/blendershading/wowzers.png": {
+    "width": 1920,
+    "height": 1080,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/breaksam/breaksam_wallpaper.png": {
+    "width": 3840,
+    "height": 2160,
+    "widths": [
+      320,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/projects/breaksam/cover.png": {
+    "width": 1080,
+    "height": 1080,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  "/assets/projects/experimentations-infographie/chrome1.png": {
+    "width": 1920,
+    "height": 1080,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/experimentations-infographie/chrome2.png": {
+    "width": 1920,
+    "height": 1080,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/experimentations-infographie/cover_bomberman.png": {
+    "width": 2048,
+    "height": 2048,
+    "widths": [
+      320,
+      640,
+      960,
+      1280,
+      1920
+    ]
+  },
+  "/assets/projects/experimentations-infographie/cover_cancer.png": {
+    "width": 1920,
+    "height": 1920,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/experimentations-infographie/cover_chubbyburger.png": {
+    "width": 1920,
+    "height": 1920,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/experimentations-infographie/cover_driveby.png": {
+    "width": 1920,
+    "height": 1920,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/experimentations-infographie/cover_fracture.png": {
+    "width": 2048,
+    "height": 2048,
+    "widths": [
+      320,
+      640,
+      960,
+      1280,
+      1920
+    ]
+  },
+  "/assets/projects/experimentations-infographie/cover_porte.png": {
+    "width": 1920,
+    "height": 1920,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/experimentations-infographie/cover_retrowav.png": {
+    "width": 1080,
+    "height": 1080,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  "/assets/projects/experimentations-infographie/noctural_animal.png": {
+    "width": 596,
+    "height": 842,
+    "widths": [
+      320
+    ]
+  },
+  "/assets/projects/experimentations-infographie/resto_fictif.png": {
+    "width": 511,
+    "height": 369,
+    "widths": [
+      320
+    ]
+  },
+  "/assets/projects/experimentations-infographie/titre_lugubre.png": {
+    "width": 1920,
+    "height": 1920,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/experimentations-infographie/trippy_sam.png": {
+    "width": 2000,
+    "height": 2000,
+    "widths": [
+      320,
+      640,
+      960,
+      1280,
+      1920
+    ]
+  },
+  "/assets/projects/last-card/carte-layers.png": {
+    "width": 887,
+    "height": 410,
+    "widths": [
+      320,
+      640
+    ]
+  },
+  "/assets/projects/last-card/carte1.jpg": {
+    "width": 590,
+    "height": 910,
+    "widths": [
+      320
+    ]
+  },
+  "/assets/projects/last-card/carte2.jpg": {
+    "width": 590,
+    "height": 910,
+    "widths": [
+      320
+    ]
+  },
+  "/assets/projects/last-card/carte3.jpg": {
+    "width": 590,
+    "height": 910,
+    "widths": [
+      320
+    ]
+  },
+  "/assets/projects/last-card/carte4.jpg": {
+    "width": 590,
+    "height": 910,
+    "widths": [
+      320
+    ]
+  },
+  "/assets/projects/last-card/carte5.jpg": {
+    "width": 590,
+    "height": 910,
+    "widths": [
+      320
+    ]
+  },
+  "/assets/projects/last-card/carte6.jpg": {
+    "width": 590,
+    "height": 910,
+    "widths": [
+      320
+    ]
+  },
+  "/assets/projects/last-card/dos_carte.jpg": {
+    "width": 590,
+    "height": 910,
+    "widths": [
+      320
+    ]
+  },
+  "/assets/projects/last-card/last-card-communique-presse.png": {
+    "width": 1653,
+    "height": 2339,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/last-card/last-card-ingame.png": {
+    "width": 1918,
+    "height": 964,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/last-card/logo.png": {
+    "width": 600,
+    "height": 338,
+    "widths": [
+      320
+    ]
+  },
+  "/assets/projects/last-card/menu_1.png": {
+    "width": 1388,
+    "height": 957,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/last-card/menu_2-1.png": {
+    "width": 1325,
+    "height": 953,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/last-card/menu_2-3.png": {
+    "width": 1390,
+    "height": 964,
+    "widths": [
+      320,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/projects/osts/cover.png": {
+    "width": 1065,
+    "height": 560,
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  "/assets/projects/vergil/cover.jpg": {
+    "width": 5760,
+    "height": 3240,
+    "widths": [
+      320,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/projects/vergil/img.jpg": {
+    "width": 5760,
+    "height": 3240,
+    "widths": [
+      320,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  }
+}

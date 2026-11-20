@@ -1,6 +1,8 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Masonry from '../components/Masonry';
+import Img from '../components/Img';
+import { imageFor } from '../js/images';
 
 import { Link } from "react-router-dom";
 
@@ -19,16 +21,16 @@ const Project = () => {
   if (!project) return <p>Projet introuvable...</p>;
 
   const galeryItems = project.gallery;
-  console.log(galeryItems);
+  // console.log(galeryItems);
 
   return (
     <>
       <section className="project-head"
-        style={{ "--bg": `url('${project.bg}')` }}>
+        style={{ "--bg": `url('${imageFor(project.bg, 1920)}')` }}>
         <div className="container">
           <h2>{project.subtitle}</h2>
           <h1>{project.title}</h1>
-          <img src={project.hero} alt={project.title} className="main-image" />
+          <Img src={project.hero} alt={project.title} className="main-image" sizes="(max-width: 768px) 100vw, 60vw" />
         </div>
       </section>
       <section className="project-body">
@@ -53,8 +55,9 @@ const Project = () => {
             <div className="bento-item"
               style={{ "--grid-width": image.width, "--grid-height": image.height }}>
               <div className="img-hover">
-                <img key={index} width="576" height="324" loading="lazy" title={image.title}
-                  src={image.url} />
+                <Img key={index} width="576" height="324" loading="lazy" title={image.title}
+                  src={image.url}
+                  sizes={`(max-width: 768px) 100vw, ${Math.round((image.width / 12) * 100)}vw`} />
               </div>
             </div>
           ))}

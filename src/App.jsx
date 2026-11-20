@@ -31,17 +31,63 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simule un chargement (ex: 1 seconde)
-    const timer = setTimeout(() => setLoading(false), 1000);
-    return () => clearTimeout(timer);
+    // Ancien chargement fictif (1 seconde), gardé pour réutilisation :
+    // const timer = setTimeout(() => setLoading(false), 1000);
+    // return () => clearTimeout(timer);
+
+    let cancelled = false;
+
+    // 1. Toutes les ressources de la page (images, CSS, scripts) : événement "load"
+    const pageLoaded = new Promise((resolve) => {
+      if (document.readyState === 'complete') resolve();
+      else window.addEventListener('load', resolve, { once: true });
+    });
+
+    // 2. Les polices (Poppins, Fugaz One, préchargées dans index.html) :
+    //    on force leur chargement pour ne pas masquer le loader avant leur arrivée.
+    const ready = pageLoaded.then(() => {
+      if (!document.fonts) return;
+      return Promise.all([
+        document.fonts.load('300 1em Poppins'),
+        document.fonts.load('400 1em Poppins'),
+        document.fonts.load('1em "Fugaz One"'),
+      ])
+        .catch(() => {})
+        .then(() => document.fonts.ready);
+    });
+
+    // 3. Sécurité : on n'attend jamais plus de 8s, même si une ressource bloque
+    const timeout = new Promise((resolve) => setTimeout(resolve, 8000));
+
+    Promise.race([ready, timeout]).then(() => {
+      if (!cancelled) setLoading(false);
+    });
+
+    return () => { cancelled = true; };
   }, []);
+
+  // Fin du chargement : masque le loader de index.html et prévient le reste du site
+  useEffect(() => {
+    // "is-loaded" sur <html> déclenche les animations .section-in
+    document.documentElement.classList.toggle('is-loaded', !loading);
+    if (loading) return;
+
+    const loader = document.getElementById('loader');
+    if (!loader) return;
+    loader.classList.add('loaded');
+    // Retire le loader du DOM une fois le fondu terminé
+    const remove = () => loader.remove();
+    loader.addEventListener('transitionend', remove, { once: true });
+    const fallback = setTimeout(remove, 1000);
+    return () => {
+      loader.removeEventListener('transitionend', remove);
+      clearTimeout(fallback);
+    };
+  }, [loading]);
 
 
   return (
     <>
-      {
-        loading ? '' : document.querySelector('.loader').classList.add('loaded')
-      }
       <div className="fixed-bg">
         <Dither
           waveColor={[0.4, 0.4, 0.2]}
@@ -65,10 +111,7 @@ function App() {
           enableMouseInteraction={false}
         /> */}
       </div>
-      <div className="loader">
-        {/* Personnalise le style ou l'animation ici */}
-        Chargement...
-      </div>
+      {/* Le loader est dans index.html (#loader) pour s'afficher avant tout le reste */}
       <RouterProvider router={router} />
     </>
   );

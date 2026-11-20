@@ -8,7 +8,7 @@ import Header from './partials/Header';
 export default function Layout() {
   const lenis = useLenis((lenis) => {
     // called every scroll
-    console.log(lenis)
+    // console.log(lenis)
   })
 
   return (
