@@ -13,7 +13,7 @@ function nonBlockingCss() {
       handler(html) {
         return html.replace(
           // Uniquement les CSS générés par Vite (/assets/...), pas Google Fonts
-          /<link rel="stylesheet"([^>]*?href="\/assets\/[^"]+\.css"[^>]*?)>/g,
+          /<link rel="stylesheet"([^>]*?href="[^"]*\/assets\/[^"]+\.css"[^>]*?)>/g,
           `<link rel="stylesheet"$1 media="print" onload="this.media='all'"><noscript><link rel="stylesheet"$1></noscript>`
         )
       },
@@ -23,6 +23,8 @@ function nonBlockingCss() {
 
 // https://vite.dev/config/
 export default defineConfig({
+  // Site servi sur https://ayosammmm.github.io/portfolio/
+  base: '/portfolio/',
   plugins: [react(), nonBlockingCss()],
   server: {
     host: true,

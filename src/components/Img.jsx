@@ -1,4 +1,5 @@
 import { srcSetFor } from '../js/images';
+import { asset } from '../js/asset';
 
 /**
  * <img> avec srcset automatique (tailles générées par `npm run images`).
@@ -6,5 +7,5 @@ import { srcSetFor } from '../js/images';
  */
 export default function Img({ src, sizes = '100vw', ...props }) {
   const srcSet = srcSetFor(src);
-  return <img src={src} srcSet={srcSet} sizes={srcSet ? sizes : undefined} decoding="async" {...props} />;
+  return <img src={asset(src)} srcSet={srcSet} sizes={srcSet ? sizes : undefined} decoding="async" {...props} />;
 }

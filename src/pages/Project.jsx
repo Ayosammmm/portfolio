@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Masonry from '../components/Masonry';
 import Img from '../components/Img';
 import { imageFor } from '../js/images';
+import { asset } from '../js/asset';
 
 import { Link } from "react-router-dom";
 
@@ -45,7 +46,7 @@ const Project = () => {
           <div className="container grid-videos">
             {project.iframes.map((iframe, index) => (
               <iframe key={index} scrolling="no" width="576" height="324" loading="lazy" title={iframe.title}
-                src={iframe.url}
+                src={asset(iframe.url)}
                 frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             ))}
           </div>
@@ -74,7 +75,7 @@ const Project = () => {
                       muted={video.auto}
                       controls={!video.auto}
                     >
-                      <source src={video.url} type="video/mp4" />
+                      <source src={asset(video.url)} type="video/mp4" />
                     </video >
                   </div>
                 </div>

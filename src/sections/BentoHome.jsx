@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import projects from "../data/projects";
 import Img from "../components/Img";
 import { imageFor } from "../js/images";
+import { asset } from '../js/asset';
 
 // Projet mis en avant sur la page d'accueil : changer le slug suffit.
 const FEATURED_SLUG = "breaksam";
@@ -155,7 +156,7 @@ export default function BentoHome() {
                     <div className="bento-contact__socials">
                         {SOCIALS.map((s) => (
                             <a key={s.icon} href={s.href} target="_blank" rel="noopener noreferrer" aria-label={s.label}>
-                                <img src={`/assets/socials/${s.icon}.svg`} alt="" width="22" height="22" />
+                                <img src={asset(`/assets/socials/${s.icon}.svg`)} alt="" width="22" height="22" />
                             </a>
                         ))}
                     </div>

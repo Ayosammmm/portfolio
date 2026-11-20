@@ -1,6 +1,7 @@
 import SocialsBubble from '../components/SocialsBubble';
 import TextType from '../components/TextType';
 import '../scss/MeContacter.scss';
+import { asset } from '../js/asset';
 
 export default function Moi() {
     return (<section className="contact-page">
@@ -31,7 +32,7 @@ export default function Moi() {
                     decayY="120"
                     scale="0.9"
                     color="#FF2714">
-                    <img src="/assets/socials/youtube.svg" width="140" height="140" />
+                    <img src={asset("/assets/socials/youtube.svg")} width="140" height="140" />
                 </SocialsBubble>
                 <SocialsBubble
                     href="https://www.instagram.com/ayosammmm"
@@ -41,7 +42,7 @@ export default function Moi() {
                     scale="1.1"
                     color="#FF14D4"
                     svgIcon='instagram'>
-                    <img src="/assets/socials/instagram.svg" width="140" height="140" />
+                    <img src={asset("/assets/socials/instagram.svg")} width="140" height="140" />
                 </SocialsBubble>
                 <SocialsBubble
                     href="mailto:sambensalah68290@gmail.com"
@@ -50,7 +51,7 @@ export default function Moi() {
                     decayY="160"
                     color="#E2E2E2"
                     svgIcon='mail'>
-                    <img src="/assets/socials/mail.svg" width="140" height="140" />
+                    <img src={asset("/assets/socials/mail.svg")} width="140" height="140" />
                 </SocialsBubble>
                 <SocialsBubble
                     href="https://github.com/Ayosammmm"
@@ -60,7 +61,7 @@ export default function Moi() {
                     scale={1.2}
                     color="#14A5FF"
                     svgIcon='github'>
-                    <img src="/assets/socials/github.svg" width="140" height="140" />
+                    <img src={asset("/assets/socials/github.svg")} width="140" height="140" />
                 </SocialsBubble>
             </div>
         </div>
