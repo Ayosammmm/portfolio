@@ -245,15 +245,13 @@ $bento-ease: cubic-bezier(.5, 0, .1, .99);
 
 // ---------- Intro ----------
 .homepage .bento-tile--intro {
-    justify-content: space-between;
+    justify-content: center;
 
     h1 {
-        font-size: clamp(2.2rem, 4.2vw, 5rem);
+        font-size: clamp(2.2rem, 3.2vw, 5rem);
         line-height: 1.05;
         color: var(--primary);
     }
-
-    p { max-width: 46ch; }
 }
 
 // ---------- Projet à la une ----------

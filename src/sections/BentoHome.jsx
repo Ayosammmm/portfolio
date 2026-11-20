@@ -54,7 +54,8 @@ export default function BentoHome() {
                     Oui, vous êtes sur un énième portfolio fait par un énième créatif.
                     Mais si vous êtes curieux, je vous invite à voir mes créations
                     parmi la masse de contenus publiés sur le net.
-                </p>
+                </p>                    <p>J’assimile toujours plus de compétences dans le but d’avoir une porte d’entrée à d’autres compétences plus compliquées d’accès. Ce qui me permet de me démarquer et de proposer des choses que tout le monde ne propose pas.</p>
+
             </article>
 
             {/* Projet à la une */}
@@ -104,26 +105,14 @@ export default function BentoHome() {
             {/* Je fais quoi ? */}
             <article className="bento-tile bento-tile--quoi">
                 <span className="bento-label">Je fais quoi ?</span>
-                <p>
-                    Pour faire court, je suis un passionné de création informatique.
-                    J'étends mon savoir-faire dans le but de découvrir des choses,
-                    mais surtout de <strong>rendre réel ce que j'imagine</strong>.
-                </p>
-                <p>
-                    Chaque compétence est une porte d'entrée vers d'autres, plus
-                    compliquées d'accès. De quoi proposer des choses que tout le monde
-                    ne propose pas.
-                </p>
+                    <p>Pour faire court, je suis un passionné de création informatique.<br />Du développement de sites web, au montage, en passant par la 3D, l’infographie et le son, j’étend mon savoir faire et mon panel de techniques dans le but de découvrir des choses, mais surtout de <strong>rendre réel ce que j'imagine</strong>.</p>
             </article>
 
             {/* Qui suis-je ? */}
             <article className="bento-tile bento-tile--qui">
                 <span className="bento-label">Qui suis-je ?</span>
-                <p>
-                    Un geek dans sa bulle. Depuis tout petit, je crée des mondes :
-                    Music 2000, l'éditeur de maps de Far Cry, les command blocks de Minecraft…
-                    puis un jour, VSCode.
-                </p>
+                        <p>Je suis un geek dans sa bulle. J’ai depuis ma plus tendre enfance cet envie de créer des mondes et je le faisais sur des jeux : Music 2000, Far Cry et son édition de maps, ou Minecraft.</p>
+                        <p>Puis un jour, j'ai grandi et je me suis trouvé une passion à créer des trucs avec des logiciels (FL Studio pour la musique, Photoshop, Premiere et After Effects, puis Davinci, Blender..)</p>
             </article>
 
             {/* Outils */}

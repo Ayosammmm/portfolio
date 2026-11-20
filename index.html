@@ -56,11 +56,69 @@
         opacity: 0;
         pointer-events: none;
       }
+
+      /* Animation du loader : 100 % CSS, tourne avant le chargement du JS */
+      .loader-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.1rem;
+        transition: transform 0.5s cubic-bezier(.5, 0, .1, .99);
+      }
+      #loader.loaded .loader-inner { transform: scale(1.08); }
+
+      .loader-text {
+        display: flex;
+        font-size: clamp(1.4rem, 4vw, 2rem);
+        letter-spacing: 0.04em;
+      }
+      .loader-text span {
+        display: inline-block;
+        animation: loader-wave 1.4s ease-in-out infinite;
+        animation-delay: calc(var(--i) * 0.08s);
+      }
+      @keyframes loader-wave {
+        0%, 60%, 100% { transform: translateY(0); color: #eee; }
+        30% { transform: translateY(-0.35em); color: #ffe434; }
+      }
+
+      .loader-bar {
+        position: relative;
+        width: min(220px, 60vw);
+        height: 3px;
+        border-radius: 3px;
+        background: #2a2a2a;
+        overflow: hidden;
+      }
+      .loader-bar::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        width: 40%;
+        border-radius: inherit;
+        background: #ffe434;
+        box-shadow: 0 0 10px #ffe43499;
+        animation: loader-slide 1.2s cubic-bezier(.6, 0, .4, 1) infinite;
+      }
+      @keyframes loader-slide {
+        from { transform: translateX(-100%); }
+        to { transform: translateX(250%); }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .loader-text span { animation: none; }
+        .loader-bar::after { animation-duration: 2.4s; }
+      }
     </style>
 
   </head>
   <body>
-    <div id="loader">Chargement...</div>
+    <div id="loader" role="status" aria-label="Chargement">
+      <div class="loader-inner" aria-hidden="true">
+        <div class="loader-text"><span style="--i:0">C</span><span style="--i:1">h</span><span style="--i:2">a</span><span style="--i:3">r</span><span style="--i:4">g</span><span style="--i:5">e</span><span style="--i:6">m</span><span style="--i:7">e</span><span style="--i:8">n</span><span style="--i:9">t</span></div>
+        <div class="loader-bar"></div>
+      </div>
+    </div>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
